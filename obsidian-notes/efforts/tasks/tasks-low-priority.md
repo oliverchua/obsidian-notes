@@ -13,16 +13,12 @@ navigate-up:
 TQ_short_mode: true
 edit-status: complete
 description: Task checklist
+scope: public
 ---
 ###### [[tasks-main|📋 Tasks]]
 ## 🔽 Low priority tasks
 ```tasks
 filter by function !task.isDone
-tags do not include finance
-tags do not include cars
-tags do not include home
-tags do not include my-cars
-tags do not include my-home
 priority is below none
 scheduled before next 7 days
 preset group_by_scheduled
@@ -38,11 +34,6 @@ hide done date
 ## ✔️ Done/canceled tasks
 ```tasks
 filter by function task.isDone
-tags do not include finance
-tags do not include cars
-tags do not include home
-tags do not include my-cars
-tags do not include my-home
 priority is below none
 
 show cancelled date

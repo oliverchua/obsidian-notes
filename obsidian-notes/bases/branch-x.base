@@ -1,0 +1,44 @@
+filters:
+  and:
+    - file.folder.startsWith("x")
+    - file.name != "_folder"
+properties:
+  file.name:
+    displayName: File
+  file.ctime:
+    displayName: Created
+  file.mtime:
+    displayName: Modified
+  note.title:
+    displayName: Title
+  note.aliases:
+    displayName: Aliases
+  note.tags:
+    displayName: Tags
+  file.ext:
+    displayName: File extension
+  file.size:
+    displayName: File size
+views:
+  - type: table
+    name: '"X" MOC'
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - file.ext
+      - file.ctime
+      - file.mtime
+      - file.size
+    sort:
+      - property: title
+        direction: ASC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 500
+      file.ext: 120
+      file.ctime: 150
+      file.mtime: 150
+      file.size: 150

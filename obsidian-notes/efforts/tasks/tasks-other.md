@@ -1,28 +1,24 @@
 ---
 type: note
 template-version: 1
-title: ☑️ Other tasks
+title: ☑️ Your tasks
 created: 2026-01-23 02:45
 aliases:
-  - Other tasks
-  - ☑️ Other tasks
+  - Your tasks
+  - ☑️ Your tasks
 tags:
   - tasks
 navigate-up:
-  - "[[tasks-main|📋 Tasks]]"
+  - "[[tasks-main-old|📋 Tasks]]"
 TQ_short_mode: true
 edit-status: complete
 description: Task checklist
+scope: public
 ---
 ###### [[tasks-main|📋 Tasks]]
-## ☑️ Other tasks
+## ☑️ Your tasks
 ```tasks
 filter by function !task.isDone
-tags do not include finance
-tags do not include cars
-tags do not include home
-tags do not include my-cars
-tags do not include my-homes
 priority is above low
 preset group_by_scheduled
 
@@ -37,11 +33,6 @@ hide done date
 ## ✔️ Done/canceled tasks
 ```tasks
 filter by function task.isDone
-tags do not include finance
-tags do not include cars
-tags do not include home
-tags do not include my-cars
-tags do not include my-homes
 priority is above low
 
 show cancelled date
