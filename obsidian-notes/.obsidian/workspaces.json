@@ -12,7 +12,7 @@
               {
                 "id": "5b5becd601171b0d",
                 "type": "split",
-                "dimension": 55.07669831994156,
+                "dimension": 55,
                 "children": [
                   {
                     "id": "097cc329660c7937",
@@ -62,7 +62,7 @@
               {
                 "id": "343cd5b327192372",
                 "type": "tabs",
-                "dimension": 44.92330168005844,
+                "dimension": 45,
                 "children": [
                   {
                     "id": "cdad1040160c5d77",
@@ -109,7 +109,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 652.5,
+        "width": 500,
         "collapsed": true
       },
       "right": {
@@ -221,7 +221,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 377.5,
+        "width": 500,
         "collapsed": true
       },
       "left-ribbon": {
@@ -279,7 +279,7 @@
           {
             "id": "a28ba1e06099c8d4",
             "type": "tabs",
-            "dimension": 66.96296296296296,
+            "dimension": 66.66,
             "children": [
               {
                 "id": "928b1d4fcf7bda49",
@@ -296,7 +296,7 @@
           {
             "id": "c12f31e4ad53bd5e",
             "type": "tabs",
-            "dimension": 33.03703703703704,
+            "dimension": 33.33,
             "children": [
               {
                 "id": "e33a9b9716cc9efd",
@@ -317,7 +317,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 650
+        "width": 500
       },
       "right": {
         "id": "1c0ac73e604c7109",
@@ -458,7 +458,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 476.5
+        "width": 500
       },
       "left-ribbon": {
         "hiddenItems": {
